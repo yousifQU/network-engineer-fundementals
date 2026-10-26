@@ -1,0 +1,8 @@
+# Never commit secrets or captured traffic
+*.key
+*.pem
+*.pfx
+*.pcap
+*.pcapng
+.env
+*.secret

@@ -1,6 +1,6 @@
 # Network Engineering Fundamentals
 
-> **Please read the [DISCLAIMER](DISCLAIMER.md).** This work comes from team lab projects in a university networking course. I am not the sole author or owner of it, and this repository is a sanitized, re-written summary for educational and portfolio purposes.
+> **Please read the DISCLAIMER** This work comes from team projects in a university course. I am not the sole author or owner of it, and this repository is a sanitized, re-written summary for educational and portfolio purposes.
 
 ## In one sentence
 

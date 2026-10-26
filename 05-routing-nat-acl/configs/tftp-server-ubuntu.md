@@ -28,7 +28,7 @@ service tftp
 
 ```bash
 sudo mkdir /tftpboot
-sudo chmod -R 777 /tftpboot      # the lab write-up used chown here by mistake
+sudo chmod -R 777 /tftpboot
 sudo chown -R nobody /tftpboot
 ```
 

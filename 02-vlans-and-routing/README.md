@@ -33,15 +33,6 @@ flowchart TB
   SW3 --- P3["3 PCs: VLAN 1, 2, 3"]
 ```
 
-Full addressing is in the [addressing plan](../docs/addressing-plan.md).
-
-## Reference configuration
-
-- [`configs/router-on-a-stick-reference.cfg`](configs/router-on-a-stick-reference.cfg): subinterfaces, DHCP pools, and SSH on the router.
-- [`configs/access-switch-reference.cfg`](configs/access-switch-reference.cfg): VLANs, access and trunk ports, management interface, and SSH on a switch.
-
-The lab used SSH version 1 with a 512-bit key and a simple shared password to save time. The references use SSH version 2, a 2048-bit key, and placeholders. They have not been re-tested.
-
 ## Results
 
 - One broadcast domain was split into **three**, so each department only hears its own broadcasts.

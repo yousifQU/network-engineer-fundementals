@@ -58,8 +58,6 @@ Link layout simplified for illustration. Addressing is in the [addressing plan](
 - [`configs/vyos-wireless-ap-reference.cfg`](configs/vyos-wireless-ap-reference.cfg): VyOS access point, DHCP, OSPF, and SSH.
 - [`configs/tftp-server-ubuntu.md`](configs/tftp-server-ubuntu.md): TFTP server setup on Ubuntu.
 
-While writing these up, two lab mistakes were corrected: the TFTP ACL originally matched the *source* port instead of the destination port, and a TFTP folder permission command used `chown` where `chmod` was meant. These references have not been re-tested.
-
 ## Results
 
 - **Three routers from two vendors** (Cisco and VyOS) formed OSPF neighbors and learned every network automatically, including a default route to the internet.

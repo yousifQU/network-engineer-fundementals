@@ -32,7 +32,7 @@ flowchart TB
   SW3 --- C["PC4, PC5, PC6"]
 ```
 
-All nine PCs share one flat network, `10.0.1.0/24` (see the [addressing plan](../docs/addressing-plan.md)).
+All nine PCs share one flat network.
 
 ## Results
 

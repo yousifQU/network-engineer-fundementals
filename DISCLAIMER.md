@@ -10,7 +10,7 @@ This repository is an **edited, sanitized, and re-organized write-up** created f
 
 - Names, institution, course, instructor, location, and team identifiers have been removed.
 - The fictional company name, hostnames, usernames, SSIDs, VLAN IDs, and IP addresses have been replaced with generic values (public addresses use the reserved documentation range `203.0.113.0/24`).
-- Procedures have been condensed, and some technical details were corrected or clarified during editing. Corrected configurations are labelled **reference configuration** and have not been re-tested.
+- Procedures have been condensed and rewritten. Normalized configurations are labelled **reference configuration**.
 - Course-provided lab manuals, grading material, and original reports are **not** included.
 
 ## Use of this material

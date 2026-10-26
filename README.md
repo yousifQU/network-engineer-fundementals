@@ -1,6 +1,6 @@
 # Network Engineering Fundamentals
 
-> **Please read the DISCLAIMER** This work comes from team projects in a university course. I am not the sole author or owner of it, and this repository is a sanitized, re-written summary for educational and portfolio purposes.
+> **Please read the [DISCLAIMER](DISCLAIMER.md).** This work comes from team lab projects in a university networking course. I am not the sole author or owner of it, and this repository is a sanitized, re-written summary for educational and portfolio purposes.
 
 ## In one sentence
 
@@ -61,7 +61,7 @@ flowchart LR
 └── 05-routing-nat-acl/
 ```
 
-Each project folder has a `README.md` written as **Situation → What I did → Results**. Projects 1, 4, and 5 also have a `troubleshooting.md`, and Projects 2, 4, and 5 have reference configurations in `configs/`.
+Each project folder has a `README.md` written as **Situation → What I did → Results**. Projects 1, 4, and 5 also have a `troubleshooting.md`, and Project 5 has reference configurations in `configs/`.
 
 New to networking terms? Start with the [plain-English glossary](docs/glossary.md).
 
@@ -70,4 +70,4 @@ New to networking terms? Start with the [plain-English glossary](docs/glossary.m
 - Public-side addresses use `203.0.113.0/24` (RFC 5737 documentation range). Private ranges use RFC 1918 space.
 - Hostnames are generic (`R1`, `SW1`, `PC1`), and VLAN IDs are renumbered to 10, 20, 30, and 40. See the [addressing plan](docs/addressing-plan.md).
 - Passwords, keys, and SSIDs appear as `<PLACEHOLDERS>`.
-- **Reference configuration** marks a normalized configuration written for this portfolio. Some lab shortcuts (such as SSH version 1 and short RSA keys) were replaced with safer settings. These configurations have not been re-tested, so verify against current vendor docs.
+- **Reference configuration** marks a normalized configuration written for this portfolio. Verify against current vendor docs before use.

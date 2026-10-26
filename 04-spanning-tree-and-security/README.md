@@ -41,14 +41,7 @@ flowchart TB
   SW3 --- PC3["PC3 (Windows)"]
 ```
 
-Link layout simplified for illustration. Addressing is in the [addressing plan](../docs/addressing-plan.md).
-
-## Reference configuration
-
-- [`configs/mstp-switch-reference.cfg`](configs/mstp-switch-reference.cfg): MSTP region, per-instance root priorities, port descriptions, and unused-port shutdown.
-- [`configs/r1-edge-router-reference.cfg`](configs/r1-edge-router-reference.cfg): subinterfaces, DHCP, NAT overload, and SSH on R1.
-
-These are normalized and have not been re-tested.
+Link layout simplified for illustration.
 
 ## Results
 
